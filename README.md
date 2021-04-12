@@ -4,7 +4,7 @@ This sample illustrates how to change a cell value in [WinForms DataGrid](https:
 
 The value exists in a particular cell can be changed programmatically by using the row column index of the cell. 
 
-```c#
+```C#
 
 // Modify the cell value for RowIndex = 5 and ColumnIndex = 2
 int rowIndex = 5;
@@ -30,7 +30,7 @@ this.sfDataGrid1.View.GetPropertyAccessProvider().SetValue(data, mappingName, "M
 
 ```
 
-``` vb
+``` VB
 
 ' Modify the cell value for RowIndex = 5 and ColumnIndex = 2
 Dim rowIndex As Integer = 5
